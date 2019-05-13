@@ -1,0 +1,7 @@
+testinguy\appium\main\mainTest.class
+testinguy\appium\screens\DragDropScreen.class
+testinguy\appium\screens\SampleListScreen.class
+testinguy\appium\screens\LoginScreen.class
+testinguy\appium\screens\SliderScreen.class
+testinguy\appium\driver\mobileAppDriver.class
+testinguy\appium\screens\NativeViewScreen.class

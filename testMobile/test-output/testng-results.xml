@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="1" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37365" started-at="2019-05-13T13:17:46Z" finished-at="2019-05-13T13:18:23Z">
+    <groups>
+    </groups>
+    <test name="TestMobileAppium" duration-ms="37365" started-at="2019-05-13T13:17:46Z" finished-at="2019-05-13T13:18:23Z">
+      <class name="testinguy.appium.main.mainTest2">
+        <test-method status="PASS" signature="inicioClase()[pri:0, instance:testinguy.appium.main.mainTest2@6fd02e5]" name="inicioClase" is-config="true" duration-ms="15300" started-at="2019-05-13T13:17:46Z" finished-at="2019-05-13T13:18:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioClase -->
+        <test-method status="PASS" signature="IniciarSesion(java.lang.String, java.lang.String)[pri:0, instance:testinguy.appium.main.mainTest2@6fd02e5]" name="IniciarSesion" duration-ms="6325" started-at="2019-05-13T13:18:01Z" description="Login" finished-at="2019-05-13T13:18:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IniciarSesion -->
+        <test-method status="PASS" signature="Test_Slider()[pri:0, instance:testinguy.appium.main.mainTest2@6fd02e5]" name="Test_Slider" duration-ms="9009" started-at="2019-05-13T13:18:07Z" description="Ejercicio de presionar y soltar" finished-at="2019-05-13T13:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Slider -->
+        <test-method status="FAIL" signature="Test_DragAndDrop()[pri:0, instance:testinguy.appium.main.mainTest2@6fd02e5]" name="Test_DragAndDrop" duration-ms="6674" started-at="2019-05-13T13:18:16Z" description="Ejercicio de presionar, arrastrar y soltar" finished-at="2019-05-13T13:18:23Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Circle droppedxD] but found [Circle dropped]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Circle droppedxD] but found [Circle dropped]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at testinguy.appium.main.mainTest2.Test_DragAndDrop(mainTest2.java:81)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_DragAndDrop -->
+        <test-method status="SKIP" signature="testCaseSkipException()[pri:0, instance:testinguy.appium.main.mainTest2@6fd02e5]" name="testCaseSkipException" duration-ms="0" started-at="2019-05-13T13:18:23Z" depends-on-methods="testinguy.appium.main.mainTest2.Test_DragAndDrop" finished-at="2019-05-13T13:18:23Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method mainTest2.testCaseSkipException()[pri:0, instance:testinguy.appium.main.mainTest2@6fd02e5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method mainTest2.testCaseSkipException()[pri:0, instance:testinguy.appium.main.mainTest2@6fd02e5] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseSkipException -->
+      </class> <!-- testinguy.appium.main.mainTest2 -->
+    </test> <!-- TestMobileAppium -->
+  </suite> <!-- Suite -->
+</testng-results>

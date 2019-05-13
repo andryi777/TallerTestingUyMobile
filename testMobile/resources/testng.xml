@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="EmisionPolizaAuto">
+		<parameter name="user" value="su"/>
+		<parameter name="pass" value="gw"/>
+		<parameter name="pathDriver" value="driver/chromedriver.exe"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivoEmision" value="./excel/DataEmisionPolizas.xlsx"/>
+		<parameter name="rutaArchivoEndoso" value="./excel/DataEndosoPolizas.xlsx"/>
+		<classes>
+			<class name="test.main.TestEmisionPolizaAuto" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

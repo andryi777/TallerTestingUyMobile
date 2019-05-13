@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="pass" value="admin"/>
+  <parameter name="user" value="admin"/>
+  <test thread-count="5" name="TestMobileAppium(failed)">
+    <classes>
+      <class name="testinguy.appium.main.mainTest2">
+        <methods>
+          <include name="Test_DragAndDrop"/>
+          <include name="inicioClase"/>
+          <include name="testCaseSkipException"/>
+        </methods>
+      </class> <!-- testinguy.appium.main.mainTest2 -->
+    </classes>
+  </test> <!-- TestMobileAppium(failed) -->
+</suite> <!-- Failed suite [Suite] -->

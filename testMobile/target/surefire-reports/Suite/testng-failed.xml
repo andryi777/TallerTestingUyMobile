@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="TestMobileAppium(failed)">
+    <parameter name="pass" value="admin"/>
+    <parameter name="user" value="admin"/>
+    <classes>
+      <class name="testinguy.appium.main.mainTest">
+        <methods>
+          <include name="Test_NativeView"/>
+          <include name="inicioClase"/>
+          <include name="Test_DragAndDrop"/>
+          <include name="IniciarSesion"/>
+          <include name="Test_Slider"/>
+        </methods>
+      </class> <!-- testinguy.appium.main.mainTest -->
+    </classes>
+  </test> <!-- TestMobileAppium(failed) -->
+</suite> <!-- Failed suite [Suite] -->
